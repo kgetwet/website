@@ -1,0 +1,153 @@
+@charset "UTF-8";
+/* 포트폴리오 타블렛 */
+body{min-width: 640px;}
+
+
+
+section
+{width: 100%;
+height: 100vh;}
+.container
+{width: 100%;
+ height: 100vh;}
+
+
+
+
+
+.scrolldown
+ {bottom: 100px;}
+
+
+ /* .contents.c01
+ {height: 900px;} */
+
+ .contents.c01
+ {height: 1350px;}
+
+ .contents.c01 .sub 
+ {width: 100%;
+ margin-top: 30px;}
+ 
+ .contents.c01 .sub .text
+ {font-size: 16px;
+ padding: 0 10px 0 50px;}
+ 
+ .contents.c01 .sub .text .line
+ {flex-direction: column;
+ width: 100%;
+ color: #000;
+ font-size: 16px;}
+ 
+ .line > span:nth-child(1)
+ {display: none;}
+ 
+ .rightbox
+ {justify-content: flex-end;}
+ 
+ 
+ .boxing
+ {align-items: flex-end;}
+ 
+ .boxing .font {
+     font-size: 20px;}
+ 
+ 
+ 
+ 
+ 
+ .color
+ {width: 40px;}
+ 
+ .color .im 
+ {width: 40px;
+ height: 40px;}
+ 
+.box
+{justify-content: flex-start;}
+
+
+ .box:nth-of-type(1) .color .im.m03
+ {border: 1px solid #333;}
+ 
+ .box .left
+ {width: 100%;
+height: 380px;}
+
+ .box .left::after
+ {width: 170px;
+ height: 300px;
+ bottom: 0px;
+ right: 10px;}
+
+ .box .left.l01 {
+    background: url(../images/a1.png) 50% 0% no-repeat;
+    background-size: contain;}
+
+
+
+
+
+
+
+
+
+
+
+ .box .right
+ {width: 100%;
+flex-direction: column;}
+
+.box .right .logo
+{margin: 0 0 20px 50px;}
+
+ .contents.c01 .works
+ {width: 90%;}
+ .contents.c02
+ {height: 900px;
+    background: linear-gradient(white 95%, transparent);}
+
+
+
+
+
+
+ 
+/* about */
+
+.name
+{width: calc(100% - 30px);
+flex-direction: column;
+height: auto;
+align-items: center;}
+.name:nth-of-type(1)
+{padding: 0;}
+.name:nth-of-type(2)
+{padding: 20px 0 0 0;
+flex-direction: row;}
+
+.name .a
+{margin: 0 0 20px 0;
+    height: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 15px;}
+
+.name .a > span
+{margin: 5px 0;}
+
+.name .intro
+{width: 100%;
+font-size: 15px;}
+
+.name:nth-of-type(2) {
+    padding: 25px 0 0 0;
+    flex-direction: row;
+    margin-top: 50px;
+ 
+    align-items: flex-start;}
+
+
+
+
+
